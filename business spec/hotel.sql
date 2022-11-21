@@ -1,7 +1,7 @@
 /*Hotel 
-I have been running a small hotel for a few years and we have recently extended due to popular demand, I therefore would like to keep track now of all the guest
+I have been running a small hotel for a few years and we have recently extended due to popular demand, I therefore would like to keep track now of all the guests
 staying at our place from Nov 10 2022. 
-I am going to need a database to keep track all the costumers and the dates they stayed with us. 
+I am going to need a database to keep track all the customers and the dates they stayed with us. 
 I want to keep track of their names and details including email, date of birth, and credit card number, additionally i need the dates they checked in and out 
 What room they slept or will sleep in and and the amount of guests they brought with. 
 There are only 15 rooms in our hotel and each sleeps a max of 3.
@@ -14,14 +14,15 @@ Questions:Can someone book 2 rooms?
 Answer: Yes If customers have a group of more than 3 they will need additional rooms however the name of the main guest in all rooms must be different.
 The email and credit card can be the same. 
 Questions: Can someone book without a credit card?
-Answer: No unfortuatly due to damages and customers not showing up we have to charge the guest according to the loss Therefore they must provide a credit card.
+Answer: No unfortunately due to damages and customers not showing up we have to charge the guest according to the loss Therefore they must provide a credit card.
 
 Reports:
 I need to know how many customers return to our hotel. (that means they are pleased with our service)
-I need to know how many customers come alone or come with another 1 or 2 guests.
-I need to know the average age group that our hotel attracts and the average time costomers stay with us.
+I need to know how many customers generally come at a time. 
+Show two groups - customers that come alone and customers that come with another one or two gueststs.
+I need to know the average age group that our hotel attracts and the average time customers stay with us.
 I need to know which are the more popular months to stay.
-I need to know what is the max amount of rooms accupied that we have reached. 
+I need to know what is the total amount of rooms occupied that we have reached. 
 
 Sample Data:
 PrimaryGuest, Email, checkin, checkout, Roomnumber, DateOfBirth, NumberofGuests, Creditcard
